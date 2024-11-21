@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travelling Website </title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+    <!-- Home section -->
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-links">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#Tours">Tours</a></li>
+            <li><a href="#Explore">Explore</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Contact" class="ctn">Contact</a></li>
+        </ul>
+        <img src="./img/menu-btn.png" class="menu-btn" alt="">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Explore the Wonderfull World</h2>
+            <div class="line"></div>
+            <h1>A WONDERFULL WORLD</h1>
+            <a href="#" class="ctn">learn More</a>
+        </div>
+    </header>
+    <script>
+        const menubtn = document.querySelector(".menu-btn");
+        const navlinks = document.querySelector(".nav-links");
+        menubtn.addEventListener("click", () => {
+            navlinks.classList.toggle("mobile-menu")
+        })
+    </script>
+    <!-- tours section -->
+    <section id="Tours">
+        <h1>Upcoming Events</h1>
+        <div class="line"></div>
+        <div class="tours-content">
+            <div class="tours-text">
+                <img src="./img/img1.png" alt="">
+                <h4>Wonderfull Mountain jorney</h4>
+                <p>Embark on an exhilarating journey through majestic peaks, serene valleys, and breathtaking panoramic
+                    views for an unforgettable adventure.</p>
+                <a href="#" class="ctn">learn More</a>
+
+            </div>
+            <div class="tours-text">
+                <img src="./img/img2.png" alt="">
+                <h4>Wonderfull Forest</h4>
+                <p> Immerse yourself in the lush greenery and tranquil beauty of nature, exploring vibrant wildlife and
+                    serene trails deep within the forest.</p>
+                <a href="#" class="ctn">learn More</a>
+
+            </div>
+        </div>
+    </section>
+    <!-- explore section -->
+    <section id="Explore">
+        <div class="explore-content">
+            <div class="explore-text">
+                <h1>Explore the Travelling in Mountain journey</h1>
+                <p>Embark on a breathtaking mountain journey, where towering peaks meet serene valleys and every turn
+                    reveals awe-inspiring landscapes. Experience the thrill of adventure as you explore hidden trails,
+                    crystal-clear streams, and the raw beauty of nature, creating memories to last a lifetime.
+                    voluptates
+                    iure optio?</p>
+                <a href="#" class="ctn">learn More</a>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- Aboutsection -->
+    <section id="About">
+        <div class="about-content">
+            <div class="about-text">
+
+                <h1>Upcoming tours and destination</h1>
+                <div class="line"></div>
+                <p>
+                    Embark on a breathtaking mountain journey, where towering peaks meet serene valleys and every turn reveals awe-inspiring landscapes. Experience the thrill of adventure as you explore hidden trails, crystal-clear streams, and the raw beauty of nature, creating memories to last a lifetime.</p>
+            </div>
+            <div class="about-image">
+<img src="./img/img3.png" alt="">
+<img src="./img/img4.png" alt="">
+<img src="./img/img5.png" alt="">
+<img src="./img/img6.png" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- Contactsection -->
+    <section id="Contact">
+        <h1>Contact Us</h1>
+        <div class="Contact-content">
+            <div class="content-text">
+    <h2>123 Campsite Avenue, Wilderness, CA 98765</h2>
+    <h2>info@coffeeshopwebsite.com</h2>
+    <h2>(123) 456-78909</h2>
+    <h2>Monday - Friday: 9:00 AM - 5:00 PM</h2>
+    <h2>Sunday: Closed</h2>
+    <h2>
+    <a href="#
+    www.MaCoder.com">
+    www.MaCoder.com</a>        
+    </div>
+    <form action="">
+        <input type="text" placeholder="name">
+        <input type="email" placeholder="email">
+        <textarea name="text" placeholder="Message" style="width: 100%; height: 90px;"></textarea>
+        <div class="btn">
+        <button type="submit">Submit</button>
+        </div>
+    </form>
+    </div>
+    </section>
+    <footer>
+<footer>
+    <div class="footer-text">
+        <h1><a href="#">Create by MA Coder</a></h1>
+    </div>
+</footer>
+</body>
+
+</html>
